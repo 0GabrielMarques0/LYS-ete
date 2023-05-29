@@ -1,0 +1,27 @@
+body{
+  background-color:#7EC7DF;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.arrow {
+  position: relative;
+  right: 10px;
+}
+
+.arrow > img {
+  width: 50px;
+  height: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main > img {
+  width: 300px;
+  height: 300px;
+}
