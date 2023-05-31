@@ -1,0 +1,38 @@
+body{
+  background-color:#7EC7DF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  margin: 30px;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+.text {
+  
+}
+
+footer {
+  width: 20%;
+  height: 20%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  right: -130px;
+  top: 50px;
+}
+
+footer > a {
+  width: 220px;
+  height: 20px;
+  background-color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+}
