@@ -13,17 +13,21 @@ body{
     height: 150px;
 }
 
-.text {
+.text{
     font-weight: 600;
     font-size: 14px;
 }
 
-.a , .d{
+ul{
+    font-weight: 500;
+}
+
+.a , .d , .e{
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }   
 
 footer {
@@ -34,7 +38,6 @@ footer {
     justify-content: flex-end;
     align-items: center;
     right: -130px;
-    top: 200px;
 }
 
 footer > a {
@@ -42,6 +45,7 @@ footer > a {
     height: 20px;
     background-color: white;
     border-radius: 4px;
+    padding: 2px;
     text-decoration: none;
     color: black;
 }
