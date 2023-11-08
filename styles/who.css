@@ -1,5 +1,14 @@
 body{
   background-color:#7EC7DF;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 375px;
+  height: 667px;
+  background-color: #7EC7DF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,13 +17,29 @@ body{
   margin: 30px;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
 .logo {
   width: 250px;
   height: 250px;
 }
 
 .text {
-  
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
 }
 
 footer {
@@ -28,11 +53,15 @@ footer {
   top: 50px;
 }
 
-footer > a {
+footer>a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 220px;
   height: 20px;
   background-color: white;
   border-radius: 4px;
+  padding: 2px;
   text-decoration: none;
   color: black;
 }
