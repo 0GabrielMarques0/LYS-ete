@@ -1,4 +1,13 @@
-body {
+body{
+  background-color:#7EC7DF;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 375px;
+  height: 667px;
   background-color: #7EC7DF;
   display: flex;
   justify-content: center;
@@ -45,6 +54,9 @@ footer {
 }
 
 footer>a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 220px;
   height: 20px;
   background-color: white;

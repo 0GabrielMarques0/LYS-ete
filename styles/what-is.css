@@ -1,16 +1,25 @@
 body{
     background-color:#7EC7DF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+header{
+    width: 375px;
+    height: 667px;
+    background-color:#7EC7DF;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    margin: 30px;
+    margin: 30px;   
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 
 .text{
@@ -41,6 +50,9 @@ footer {
 }
 
 footer > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 220px;
     height: 20px;
     background-color: white;

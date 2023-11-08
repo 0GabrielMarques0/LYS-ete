@@ -1,7 +1,18 @@
 body{
   background-color:#7EC7DF;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  width: 375px;
+  height: 667px;
+  background-color:#7EC7DF;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  height: 100vh;
 }
 
 .arrow {
