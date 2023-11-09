@@ -29,13 +29,13 @@ main{
     width: 375px;
     height: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .diario , .conteudos{
     background-color: aliceblue;
-    width: 48%;
+    width: 46%;
     height: 100%;
     border: 2px solid #1D63DB;
     border-radius: 5px;
@@ -46,7 +46,7 @@ main{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 48%;
+    width: 46%;
     height: 100%;
 }
 
